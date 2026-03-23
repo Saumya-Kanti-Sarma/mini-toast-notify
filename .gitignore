@@ -1,0 +1,8 @@
+node_modules
+react-app
+.env
+*.txt
+*.text
+test
+dist
+.npmrc

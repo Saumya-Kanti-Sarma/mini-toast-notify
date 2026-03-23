@@ -1,0 +1,9 @@
+my-toast-lib/
+  src/
+    store.ts
+    toast.ts
+    useToasts.ts
+    Toaster.tsx
+    index.ts
+  package.json
+  tsconfig.json
