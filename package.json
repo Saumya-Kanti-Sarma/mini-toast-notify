@@ -27,11 +27,9 @@
   "author": "Saumya Sarma",
   "license": "MIT",
   "type": "module",
-  "peerDependencies": {
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
-  },
   "devDependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "tsup": "^8.5.1",

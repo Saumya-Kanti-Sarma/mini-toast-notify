@@ -6,3 +6,4 @@ react-app
 test
 dist
 .npmrc
+*.tgz
