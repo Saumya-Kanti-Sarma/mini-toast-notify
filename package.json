@@ -8,7 +8,9 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "patch": "npm version patch",
+    "publish": "npm publish --access public"
   },
   "keywords": [
     "react",
