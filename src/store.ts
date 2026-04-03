@@ -9,6 +9,7 @@ let listeners: ((t: Toast[]) => void)[] = [];
 
 export const subscribe = (fn: (t: Toast[]) => void) => {
   listeners.push(fn);
+  console.log(fn);
   return () => {
     listeners = listeners.filter(l => l !== fn);
   };
@@ -18,6 +19,7 @@ const notify = () => listeners.forEach(l => l(toasts));
 
 export const addToast = (toast: Toast) => {
   toasts = [...toasts, toast];
+  console.log(toast);
   notify();
 };
 
